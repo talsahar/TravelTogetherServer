@@ -20,6 +20,8 @@ public class PacketBuilder {
 		case Protocol.msgPACK:
 			String msgContent = params[1];
 			return new MessagePacket(gid,uid,msgContent,date);
+			case Protocol.outofrangePACK:
+				return new OutOfRangePacket(gid, uid, date);
 		default:
 			System.out.println("Unknown msg type: " + msg);
 			return null;

@@ -10,4 +10,6 @@ public static String closeConnectionRes = "#BBOK";
 public static final String CoordinatePACK = "#COORDINATE";
 //PackageFormat: "#MSG,message"
 public static final String msgPACK = "#MSG";
+    public static final String outofrangePACK = "#OutOfRange";
+
 }

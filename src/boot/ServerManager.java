@@ -27,6 +27,7 @@ public class ServerManager {
 			UserSocket userSocket = new UserSocket(sock, null, onNewPackageDelegate, onCloseDelegate);
 			waitingList.add(userSocket);
 			userSocket.startReading();
+			//
 		});
 	}
 
